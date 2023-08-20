@@ -5,28 +5,35 @@
  */
 int _getline(void)
 {
-	char *string;
-	size_t size;
+	char *string = NULL;
+	size_t size = 0;
 	ssize_t bytes_read = 0;
 	int i;
 
-	string = (char *)malloc(size);
+	printf("$ ");
+	
+	for (i = 0; i < 1; i++)
+	{
+	
+	bytes_read = getline(&string, &size, stdin);
 	if (bytes_read == -1)
 	{
-		puts("hsh");
+	perror("getline");
 	}
-	else
-		for (i = 0; i < 1; i++)
-		{
-			printf("$ ");
-			bytes_read = getline(&string, &size, stdin);
-		}
+	else 
+	printf("entered: %s" , string);
+
+	}
+	free(string);
+
 	return (0);
 }
+
 /**
  * _strtok - function that used to read a string or a line
  * Return: 0
  */
+
 int _strtok(void)
 {
 	char *str = " ";
@@ -39,6 +46,7 @@ int _strtok(void)
 	}
 	return (0);
 }
+
 /**
 * _fork - creating a new process
 *Return: void

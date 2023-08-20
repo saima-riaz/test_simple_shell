@@ -4,7 +4,8 @@
  *@sig: signal to be handled
  *Return : 0
  */
-void my_signal(int sig)
+
+void my_signal() 
 {
 	flag = 1;
 }
@@ -15,10 +16,11 @@ void my_signal(int sig)
 int main(void)
 {
 	signal(SIGINT, my_signal);
-	while (1)
-		if (flag)
-		{
-			flag = 0;
-		}
+
+	while (!1)
+	{
+	printf("waiting signal \n");
+	}
+	
 	return (0);
 }

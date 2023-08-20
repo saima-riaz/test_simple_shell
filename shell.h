@@ -16,13 +16,16 @@ extern char **environ;
 #define SIZE 1024
 #define PATH_MAX 1020
 int _getline();
+int main(void);
+int _strtok(void);
+void my_signal();
 int _strlen(char *s);
-char _strdup(char *str);
+char *_strdup(char *str);
 int _strcmp(char *s1, char *s2);
-int _strtok();
 void _fork();
 void sig_handler(int signum);
 volatile sig_atomic_t flag = 0;
 int _stat(int ac, char **av);
 int _putchar(char c);
+int parse_string(char *str, const char *token);
 #endif

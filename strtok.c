@@ -1,19 +1,18 @@
 #include "shell.h"
 /**
- * _strtok - function that parses string
+ *parse_string - function that parses string
  *@str: string to parse
  *@token: delimiter
  *Return: 0
  */
-int _strtok(char *str, const char *token)
+int parse_string(char *str, const char *token)
 {
-	char str[] = "";
-	char *token = strtok(str, " ");
+	char *nw_token = strtok(str, token);
 
-	while (token != NULL)
+	while (nw_token != NULL)
 	{
-		printf("%s\n", token);
-		token = strtok(NULL, " ");
+		printf("%s\n", nw_token);
+		nw_token = strtok(NULL, token);
 	}
 	return (0);
 }
