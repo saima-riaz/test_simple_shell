@@ -15,7 +15,7 @@ extern char **environ;
 #define DELIMIT " \t\r\n\a"
 #define SIZE 1024
 #define PATH_MAX 1020
-int _getline();
+int _getline(void);
 int _main(void);
 int _strtok(void);
 void my_signal();
@@ -24,7 +24,7 @@ char *_strdup(char *str);
 int _strcmp(char *s1, char *s2);
 void _fork();
 void sig_handler(int signum);
-volatile sig_atomic_t flag = 0;
+volatile sig_atomic_t my_flag = 0;
 int _stat(int ac, char **av);
 int _putchar(char c);
 int parse_string(char *str, const char *token);

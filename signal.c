@@ -7,20 +7,19 @@
 
 void my_signal() 
 {
-	flag = 1;
+	my_flag = 1;
 }
 /**
  * main - main function
  * Return: 0
  */
-int _main(void)
+int main(void)
 {
 	signal(SIGINT, my_signal);
-
-	while (!1)
-	{
-	printf("waiting signal \n");
-	}
-	
+	while (1)
+		if (my_flag)
+		{
+			my_flag = 0;
+		}
 	return (0);
 }
