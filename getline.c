@@ -1,12 +1,12 @@
 #include "shell.h"
 /**
- * _getline - function that used to read a string or a line
+ * _getline2 - function that used to read a string or a line
  * @string: string to be printed
  * @size: size of string
  * @bytes_read: reader
  * Return: 0
  */
-int _getline(char *string, size_t size, ssize_t bytes_read)
+int _getline2(char *string, size_t size, ssize_t bytes_read)
 {
 	int i;
 
