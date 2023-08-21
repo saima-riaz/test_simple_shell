@@ -13,7 +13,7 @@ void my_signal()
  * main - main function
  * Return: 0
  */
-int main(void)
+int _main(void)
 {
 	signal(SIGINT, my_signal);
 

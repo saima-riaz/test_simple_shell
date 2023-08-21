@@ -16,7 +16,7 @@ extern char **environ;
 #define SIZE 1024
 #define PATH_MAX 1020
 int _getline();
-int main(void);
+int _main(void);
 int _strtok(void);
 void my_signal();
 int _strlen(char *s);
