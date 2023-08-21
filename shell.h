@@ -18,6 +18,7 @@ extern char **environ;
 int _getline(void);
 int _main(void);
 int _strtok(void);
+int _exit2();
 void _exit(int status);
 int _strlen(char *s);
 char *_strdup(char *str);

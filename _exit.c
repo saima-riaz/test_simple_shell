@@ -7,7 +7,7 @@
 */
 
 
-	int main()
+	int _exit2()
 {
 	printf("Before _exit\n");
     
