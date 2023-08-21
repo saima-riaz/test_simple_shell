@@ -7,7 +7,6 @@
 int _strlen(char *s)
 {
 	int i;
-
 	for (i = 0; s[i]; i++)
 	;
 	return (i);
@@ -21,7 +20,8 @@ int _strlen(char *s)
 char *_strdup(char *str)
 {
 	char *dest;
-	int i, j = 0;
+	int i = 0, 
+	j = 0;
 
 	if (str == NULL)
 		return (NULL);
@@ -38,6 +38,7 @@ char *_strdup(char *str)
 	dest[i] = '\0';
 	return (dest);
 }
+
 /**
  * _strcmp - compare two strings
  * @s1: string
