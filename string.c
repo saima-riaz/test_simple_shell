@@ -7,6 +7,7 @@
 int _strlen(char *s)
 {
 	int i;
+
 	for (i = 0; s[i]; i++)
 	;
 	return (i);
@@ -20,16 +21,15 @@ int _strlen(char *s)
 char *_strdup(char *str)
 {
 	char *dest;
-	int i = 0, 
+	int i = 0,
 	j = 0;
 
 	if (str == NULL)
-		return (NULL);
-
-	while (str[i] != '\0')  
+	return (NULL);
+	while (str[i] != '\0')
 		i++;
 
-	dest =(char *) malloc(i + 1);
+	dest = (char *) malloc(i + 1);
 	if (dest == NULL)
 		return (NULL);
 
