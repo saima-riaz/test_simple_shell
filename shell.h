@@ -1,5 +1,5 @@
-#ifndef shell_h
-#define shell_h
+#ifndef SHELL_H
+#define SHELL_H
 #include <stddef.h>
 #include <sys/stat.h>
 #include <signal.h>
@@ -18,13 +18,12 @@ extern char **environ;
 int _getline(void);
 int _main(void);
 int _strtok(void);
-void my_signal();
+void _exit(int status);
 int _strlen(char *s);
 char *_strdup(char *str);
 int _strcmp(char *s1, char *s2);
 void _fork();
 void sig_handler(int signum);
-volatile sig_atomic_t my_flag = 0;
 int _stat(int ac, char **av);
 int _putchar(char c);
 int parse_string(char *str, const char *token);
