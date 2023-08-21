@@ -11,18 +11,15 @@ int _getline(void)
 	int i;
 
 	printf("$ ");
-	
 	for (i = 0; i < 1; i++)
 	{
-	
 	bytes_read = getline(&string, &size, stdin);
 	if (bytes_read == -1)
 	{
 	perror("getline");
 	}
-	else 
-	printf("entered: %s" , string);
-
+	else
+	printf("entered: %s", string);
 	}
 	free(string);
 
