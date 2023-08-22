@@ -1,6 +1,6 @@
 # **C - Simple Shell** :shell:
 
-## **DESCRIPTION** :book:
+## **DESCRIPTION** :reminder_ribbon:
 
 Shell scripts allow us to program commands in chains and have the system execute them as a scripted event, just like batch files. They also allow for far more useful functions, such as command substitution. You can invoke a command, like date, and use it’s output as part of a file-naming scheme. You can automate backups and each copied file can have the current date appended to the end of its name. Scripts aren’t just invocations of commands, either. They’re programs in their own right. Scripting allows you to use programming functions — such as ‘for’ loops, if/then/else statements, and so forth — directly within your operating system’s interface.
 ![This is an image](https://zupimages.net/up/23/33/vsp9.gif)
