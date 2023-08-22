@@ -12,9 +12,11 @@
 #include <fcntl.h>
 #include <stddef.h>
 #define DELIMIT " \t\r\n\a"
-#define PROMPT "$A team "
+
+#define PROMPT "$sa_team "
 #define SIZE 1024
 #define PATH_MAX 1020
+
 extern char **environ;
 int _getline(void);
 int _main(void);
