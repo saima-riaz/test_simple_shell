@@ -1,6 +1,6 @@
-# **C - Simple Shell** :shell:
+# **C - Simple Shell** :reminder_ribbon:
 
-## **DESCRIPTION** :reminder_ribbon:
+## **DESCRIPTION** 
 
 Shell scripts allow us to program commands in chains and have the system execute them as a scripted event, just like batch files. They also allow for far more useful functions, such as command substitution. You can invoke a command, like date, and use it’s output as part of a file-naming scheme. You can automate backups and each copied file can have the current date appended to the end of its name. Scripts aren’t just invocations of commands, either. They’re programs in their own right. Scripting allows you to use programming functions — such as ‘for’ loops, if/then/else statements, and so forth — directly within your operating system’s interface.
 ![This is an image](https://zupimages.net/up/23/33/vsp9.gif)
@@ -13,12 +13,12 @@ Shell scripts allow us to program commands in chains and have the system execute
 * ```closedir``` (man 3 closedir)
 * ```execve``` (man 2 execve) 
 * ```exit``` (man 3 exit)
-* ```_exit``` (man 2 _exit) :bricks:
+* ```_exit``` (man 2 _exit) :shell:
 * ```fflush``` (man 3 fflush)
-* ```fork``` (man 2 fork) :bricks:
-* ```free``` (man 3 free) :bricks:
+* ```fork``` (man 2 fork) :shell:
+* ```free``` (man 3 free) :shell:
 * ```getcwd``` (man 3 getcwd)
-* ```getline``` (man 3 getline) :bricks:
+* ```getline``` (man 3 getline) :shell:
 * ```getpid``` (man 2 getpid)
 * ```isatty``` (man 3 isatty)
 * ```kill``` (man 2 kill)
@@ -33,12 +33,12 @@ Shell scripts allow us to program commands in chains and have the system execute
 * ```putchar``` (man 3 putchar)
 * ```read``` (man 2 read) 
 * ```readdir``` (man 3 readdir)
-* ```signal``` (man 2 signal) :bricks:
+* ```signal``` (man 2 signal) :shell
 * ```stat``` (__xstat) (man 2 stat)
 * ```lstat``` (__lxstat) (man 2 lstat)
 * ```fstat``` (__fxstat) (man 2 fstat) 
-* ```strtok``` (man 3 strtok) :bricks:
-* ```wait``` (man 2 wait)
+* ```strtok``` (man 3 strtok) :shell:
+* ```wait``` (man 2 wait) :shell:
 * ```waitpid``` (man 2 waitpid)
 * ```wait3``` (man 2 wait3)
 * ```wait4``` (man 2 wait4)
