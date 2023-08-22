@@ -37,14 +37,14 @@ Shell scripts allow us to program commands in chains and have the system execute
 * ```stat``` (__xstat) (man 2 stat)
 * ```lstat``` (__lxstat) (man 2 lstat)
 * ```fstat``` (__fxstat) (man 2 fstat) 
-* ```strtok``` (man 3 strtok)
+* ```strtok``` (man 3 strtok) :paperclip:
 * ```wait``` (man 2 wait)
 * ```waitpid``` (man 2 waitpid)
 * ```wait3``` (man 2 wait3)
 * ```wait4``` (man 2 wait4)
 * ```write``` (man 2 write) 
 
-# **Project Files**
+# **Project Files List**
 
 |***File***|***Description***|
 |---|---|
