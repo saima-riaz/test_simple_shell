@@ -1,4 +1,4 @@
-# **C - Simple Shell** :candle:
+# **C - Simple Shell** :bell:
 
 ## **DESCRIPTION** 
 
