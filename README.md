@@ -46,7 +46,7 @@ Shell scripts allow us to program commands in chains and have the system execute
 
 # **Project Files**
 
-|File|Description|
+|**File**|**Description**|
 |---|---|
 |AUTHORS|Contributors in this repository|
 |README.md|Detailed description of our project|
