@@ -13,12 +13,12 @@ Shell scripts allow us to program commands in chains and have the system execute
 * ```closedir``` (man 3 closedir)
 * ```execve``` (man 2 execve) 
 * ```exit``` (man 3 exit)
-* ```_exit``` (man 2 _exit)
+* ```_exit``` (man 2 _exit) :bricks:
 * ```fflush``` (man 3 fflush)
-* ```fork``` (man 2 fork)
-* ```free``` (man 3 free)
+* ```fork``` (man 2 fork) :bricks:
+* ```free``` (man 3 free) :bricks:
 * ```getcwd``` (man 3 getcwd)
-* ```getline``` (man 3 getline)
+* ```getline``` (man 3 getline) :bricks:
 * ```getpid``` (man 2 getpid)
 * ```isatty``` (man 3 isatty)
 * ```kill``` (man 2 kill)
@@ -33,7 +33,7 @@ Shell scripts allow us to program commands in chains and have the system execute
 * ```putchar``` (man 3 putchar)
 * ```read``` (man 2 read) 
 * ```readdir``` (man 3 readdir)
-* ```signal``` (man 2 signal)
+* ```signal``` (man 2 signal) :bricks:
 * ```stat``` (__xstat) (man 2 stat)
 * ```lstat``` (__lxstat) (man 2 lstat)
 * ```fstat``` (__fxstat) (man 2 fstat) 
