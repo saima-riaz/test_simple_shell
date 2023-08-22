@@ -37,7 +37,7 @@ Shell scripts allow us to program commands in chains and have the system execute
 * ```stat``` (__xstat) (man 2 stat)
 * ```lstat``` (__lxstat) (man 2 lstat)
 * ```fstat``` (__fxstat) (man 2 fstat) 
-* ```strtok``` (man 3 strtok) :paperclip:
+* ```strtok``` (man 3 strtok) :bricks:
 * ```wait``` (man 2 wait)
 * ```waitpid``` (man 2 waitpid)
 * ```wait3``` (man 2 wait3)
