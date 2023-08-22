@@ -1,4 +1,4 @@
-# **C - Simple Shell** :reminder_ribbon:
+# **C - Simple Shell** :candle:
 
 ## **DESCRIPTION** 
 
@@ -122,7 +122,7 @@ $
 
 # **BUGS** :warning:
 
-Incorrect output - case: Execute ls -l
+
 
 # **Tasks** :ladder:
 
