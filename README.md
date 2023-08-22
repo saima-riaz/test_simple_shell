@@ -33,7 +33,7 @@ Shell scripts allow us to program commands in chains and have the system execute
 * ```putchar``` (man 3 putchar)
 * ```read``` (man 2 read) 
 * ```readdir``` (man 3 readdir)
-* ```signal``` (man 2 signal) :shell
+* ```signal``` (man 2 signal) :shell:
 * ```stat``` (__xstat) (man 2 stat)
 * ```lstat``` (__lxstat) (man 2 lstat)
 * ```fstat``` (__fxstat) (man 2 fstat) 
