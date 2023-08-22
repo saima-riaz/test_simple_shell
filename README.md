@@ -1,6 +1,6 @@
-## **C - Simple Shell** :bell:
+# **C - Simple Shell** :bell:
 
-# **WHAT IS SHELL ?** 
+### **WHAT IS SHELL ?** 
 
 A shell is a command-line interpreter, it is the computer program that provides a user interface to access the services of the operating system. Depending on the type of interface they use, shells can be of various types, in this case, a shell program of the type sh (Bourne Shell) will be developed. Users typically interact with a shell using a terminal emulator that is used for entering data into and displaying or printing data from, a computer or a computing system.
 
