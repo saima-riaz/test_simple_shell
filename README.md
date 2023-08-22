@@ -1,12 +1,10 @@
 # **C - Simple Shell** :bell:
 
-### **WHAT IS SHELL ?** 
+### **WHAT IS SHELL ?**
 
-A shell is a command-line interpreter, it is the computer program that provides a user interface to access the services of the operating system. Depending on the type of interface they use, shells can be of various types, in this case, a shell program of the type sh (Bourne Shell) will be developed. Users typically interact with a shell using a terminal emulator that is used for entering data into and displaying or printing data from, a computer or a computing system.
+A shell is a command-line interpreter that provides a user interface to access the operating system's services. It comes in various types; here, we'll focus on the sh (Bourne Shell). Users interact with it via a terminal emulator for data input/output and command execution. Shells handle tasks like process control, I/O redirection, file manipulation, security, and scripting. All Unix systems include at least one Bourne shell interpreter located at /bin/sh.
 
-This consists of interpreting orders. It incorporates features such as process control, input/output redirection, law listing and reading, protection, communications, and a command language for writing batch programs or scripts. All Unix-type systems have at least one interpreter compatible with the Bourne shell. The Bourne shell program is found within the Unix file hierarchy at /bin/sh.
-
-![This is an image](https://zupimages.net/up/23/34/jy4m.png)
+![This is an image](https://zupimages.net/up/23/34/0d6p.jpg)
 
 # ***Functions and system calls authorized*** :
 
