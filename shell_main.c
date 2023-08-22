@@ -82,14 +82,14 @@ void sig_handler(int signum)
  */
 int main(void)
 {
-	int st = 1;
+        int st = 1;
 
-	signal(SIGINT, sig_handler);
-	while (st)
-		{
-		_getline();
-		_strtok();
-		_fork();
-		}
-	return (0);
+        signal(SIGINT, sig_handler);
+        while (st)
+                {
+                _getline();
+                _strtok();
+                _fork();
+                }
+        return (0);
 }
