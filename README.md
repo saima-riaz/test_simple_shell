@@ -62,16 +62,13 @@ Shell scripts allow us to program commands in chains and have the system execute
 # **EXEMPLE**
 
 ```
- ($) ls
-AUTHORS    builtin.c            handler_non_inter_func.c  helpers_strings2.c  main.c
-README.md  execute_functions.c  helpers_strings.c         hsh                 man_1_simple_shell
-Shell.gif  hack                 helpers_strings1.c        init_function.c     shell.h
- ($)
+ 
+
 ```
 
-# **Testing** :warning:
+# **Testing** :diamonds:
 
-* Our shell should work like this in interactive mode:
+* Interactive mode:
 
 ```
 $ ./hsh
@@ -82,7 +79,7 @@ hsh main.c shell.c
 $
 ```
 
-* But also in non-interactive mode:
+* Non-interactive mode:
 
 ```
 $ echo "/bin/ls" | ./hsh
@@ -98,7 +95,7 @@ hsh main.c shell.c test_ls_2
 $
 ```
 
-# **Output** :clipboard:
+# **Output** :diamonds:
 
 * Unless specified otherwise, our program must have the exact same output as sh (/bin/sh) as well as the exact same error output.
 * The only difference is when you print an error, the name of the program must be equivalent to your argv[0] (See below)
