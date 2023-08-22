@@ -11,10 +11,11 @@
 #include <sys/types.h>
 #include <fcntl.h>
 #include <stddef.h>
-extern char **environ;
 #define DELIMIT " \t\r\n\a"
+#define PROMPT "$A team "
 #define SIZE 1024
 #define PATH_MAX 1020
+extern char **environ;
 int _getline(void);
 int _main(void);
 int _strtok(void);

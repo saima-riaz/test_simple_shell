@@ -1,9 +1,11 @@
 #include "shell.h"
 /*
  * _exit:immediately terminates the process without performing normal cleanup
+ *
  * Return: 0
 */
-	int_exit2(void)
+
+int _exit2(void)
 {
 	printf("Before _exit\n");
 	_exit(0);
