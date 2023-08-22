@@ -167,12 +167,7 @@ Simple shell 0.4 +
 
 * Implement the env built-in, that prints the current environment.
 
-## **Authors** :black_nib:
+## **Authors** :two_women_holding_hands:
  
 * **Sabrina Papeau** - [Github](https://github.com/Holbiwan)
 * **Saima Riaz** - [Github](https://github.com/saima-riaz)
-
-## **LICENSE**
-
-**Simple _Shell** is an open-source project, so the download and the usage has no restriction.
-
