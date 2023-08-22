@@ -120,7 +120,7 @@ $ echo "qwerty" | ./././hsh
 $
 ```
 
-# **BUGS** :no_entry:
+# **BUGS** :warning:
 
 Incorrect output - case: Execute ls -l
 
