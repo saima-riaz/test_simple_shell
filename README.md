@@ -124,7 +124,7 @@ $
 
 Incorrect output - case: Execute ls -l
 
-# **Tasks** :books:
+# **Tasks** :ladder:
 
 ### **0. README, man, AUTHORS**
 
