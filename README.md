@@ -54,7 +54,6 @@ Shell scripts allow us to program commands in chains and have the system execute
 |string.c|Contains _strlen (length of a string)  / _strdup (returns a pointer to a newly allocated)/ _strcmp (compare two strings)|
 |shell_main.c|Contains _getline  (used to read a string or a line)/ _fork(creating a new process)/ sig_handler (checks if Ctrl C is pressed by the input)|
 |shell.h|Prototypes functions and headers|
-
 |getline.c|Contains _getline2 (used to read a string or a line)/ _signal (function to handle signal)|
 |_exit.c| _exit (terminates the process)|
 |man_1_simple_shell|Manual page our of Simple Shell|
