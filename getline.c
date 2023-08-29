@@ -6,25 +6,21 @@
  * @bytes_read: reader
  * Return: 0
  */
-int _getline2(char *string, size_t size, ssize_t bytes_read)
+int _getline2(char **string, size_t size)
 {
-	int i;
+	ssize_t bytes_read;
 
-	bytes_read = 0;
-	string = (char *)malloc(size);
+	printf("$ ");
+
+	bytes_read = getline(string, &size, stdin);
 	if (bytes_read == -1)
 	{
-		puts("ERROR!");
-		free(string);
+	perror("getline");
+        return 1;
 	}
-	else
-		for (i = 0; i < 1;)
-		{
-			printf("$ ");
-			bytes_read = getline(&string, &size, stdin);
-			puts(string);
-		}
-	return (0);
+
+	printf("entered: %s", *string);
+    return 0;
 }
 
 #include <stdio.h>
@@ -40,8 +36,19 @@ int _signal(void)
 	signal(SIGINT, SIG_IGN);
 
 	while (1)
+	
 	{
-		sleep(1);
+	char *input = NULL;
+        size_t size = 0;
+
+	if (_getline2(&input, size) == 1)
+        {
+
+	continue; 
+       
+       	}
+	free(input);
+
 	}
 
 	return (0);

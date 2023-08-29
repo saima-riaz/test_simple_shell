@@ -11,8 +11,7 @@ int _getline(void)
 	int i;
 
 	printf("$ ");
-	for (i = 0; i < 1; i++)
-	{
+
 	bytes_read = getline(&string, &size, stdin);
 	if (bytes_read == -1)
 	{
@@ -33,15 +32,27 @@ int _getline(void)
 
 int _strtok(void)
 {
-	char *str = " ";
-	char *token = strtok(str, " ");
-
-	while (token != NULL)
+	char *input = NULL;
+	size_t size = 0;
+	ssize_t bytes_read = 0;
+	
+	printf("$ ");
+	bytes_read = getline(&input, &size, stdin);
+	if (bytes_read == -1)
 	{
-		printf("%s", token);
-		token = strtok(NULL, " ");
+	perror("getline");
+        return (0);
 	}
-	return (0);
+
+	char *token = strtok(input, DELIMIT);
+       	while (token != NULL)
+       	{
+        printf("%s\n", token);
+        token = strtok(NULL, DELIMIT);
+    }
+
+    free(input);
+    return (0);
 }
 
 /**
@@ -83,13 +94,39 @@ void sig_handler(int signum)
 int main(void)
 {
         int st = 1;
+	char *input = NULL;
+	size_t size = 0;
+	ssize_t bytes_read = 0;
 
         signal(SIGINT, sig_handler);
+
         while (st)
-                {
-                _getline();
-                _strtok();
-                _fork();
-                }
+{
+	printf("$ ");
+	bytes_read = getline(&input, &size, stdin);
+        if (bytes_read == -1)
+        {
+	perror("getline");
+	continue;
+	}
+	if (strcmp(input, "exit\n") == 0)
+	{
+	st = 0;
+	
+	printf("exit shell \n");
+
+	}
+	
+	else
+	{
+	
+	_strtok();
+	_fork();
+                
+	}
+}
+
+	free(input);
+
         return (0);
 }
